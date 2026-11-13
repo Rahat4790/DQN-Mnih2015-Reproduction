@@ -5,22 +5,27 @@ import torch.nn as nn
 
 class QNetwork(nn.Module):
 
-    def __init__(self, state_dim, action_dim):
+    def __init__(
+        self,
+        state_dim,
+        action_dim,
+        hidden_dims=(24, 24)
+    ):
         super(QNetwork, self).__init__()
 
-        self.network = nn.Sequential(
+        layers = []
+        input_dim = state_dim
 
-            # Input layer -> Hidden layer 1
-            nn.Linear(state_dim, 128),
-            nn.ReLU(),
+        # Build configurable hidden layers
+        for hidden_dim in hidden_dims:
+            layers.append(nn.Linear(input_dim, hidden_dim))
+            layers.append(nn.ReLU())
+            input_dim = hidden_dim
 
-            # Hidden layer 1 -> Hidden layer 2
-            nn.Linear(128, 128),
-            nn.ReLU(),
+        # Output layer
+        layers.append(nn.Linear(input_dim, action_dim))
 
-            # Hidden layer 2 -> Output layer
-            nn.Linear(128, action_dim)
-        )
+        self.network = nn.Sequential(*layers)
 
     def forward(self, state):
 
