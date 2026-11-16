@@ -1,0 +1,2 @@
+seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+123,10.0,99937,44415,44.44299908942634,27.791250126661726,562.614990234375
