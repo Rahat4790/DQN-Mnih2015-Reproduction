@@ -1,0 +1,644 @@
+﻿DQN PROJECT FILE INVENTORY
+Generated: 11/17/2026 11:38:27
+
+========== ALL RESULT FILES ==========
+results\ablation\no_replay\evaluation\evaluation_summary.csv | 295 bytes
+results\ablation\no_replay\evaluation\figures\no_replay_evaluation.png | 384293 bytes
+results\ablation\no_replay\evaluation\seed_123_evaluation_rewards.npy | 928 bytes
+results\ablation\no_replay\evaluation\seed_2025_evaluation_rewards.npy | 928 bytes
+results\ablation\no_replay\evaluation\seed_21_evaluation_rewards.npy | 928 bytes
+results\ablation\no_replay\evaluation\seed_42_evaluation_rewards.npy | 928 bytes
+results\ablation\no_replay\evaluation\seed_7_evaluation_rewards.npy | 928 bytes
+results\ablation\no_replay\seed_123\config.json | 502 bytes
+results\ablation\no_replay\seed_123\episode_metrics.csv | 153249 bytes
+results\ablation\no_replay\seed_123\online_network.pth | 6185 bytes
+results\ablation\no_replay\seed_2025\config.json | 502 bytes
+results\ablation\no_replay\seed_2025\episode_metrics.csv | 169475 bytes
+results\ablation\no_replay\seed_2025\online_network.pth | 6185 bytes
+results\ablation\no_replay\seed_21\config.json | 502 bytes
+results\ablation\no_replay\seed_21\episode_metrics.csv | 164251 bytes
+results\ablation\no_replay\seed_21\online_network.pth | 6185 bytes
+results\ablation\no_replay\seed_42\config.json | 502 bytes
+results\ablation\no_replay\seed_42\episode_metrics.csv | 125816 bytes
+results\ablation\no_replay\seed_42\online_network.pth | 6185 bytes
+results\ablation\no_replay\seed_7\config.json | 502 bytes
+results\ablation\no_replay\seed_7\episode_metrics.csv | 134238 bytes
+results\ablation\no_replay\seed_7\online_network.pth | 6185 bytes
+results\ablation\no_target\evaluation\evaluation_summary.csv | 304 bytes
+results\ablation\no_target\evaluation\figures\no_target_evaluation.png | 415198 bytes
+results\ablation\no_target\evaluation\seed_123_evaluation_rewards.npy | 928 bytes
+results\ablation\no_target\evaluation\seed_2025_evaluation_rewards.npy | 928 bytes
+results\ablation\no_target\evaluation\seed_21_evaluation_rewards.npy | 928 bytes
+results\ablation\no_target\evaluation\seed_42_evaluation_rewards.npy | 928 bytes
+results\ablation\no_target\evaluation\seed_7_evaluation_rewards.npy | 928 bytes
+results\ablation\no_target\seed_123\config.json | 502 bytes
+results\ablation\no_target\seed_123\episode_metrics.csv | 42632 bytes
+results\ablation\no_target\seed_123\online_network.pth | 6185 bytes
+results\ablation\no_target\seed_2025\config.json | 502 bytes
+results\ablation\no_target\seed_2025\episode_metrics.csv | 32918 bytes
+results\ablation\no_target\seed_2025\online_network.pth | 6185 bytes
+results\ablation\no_target\seed_21\config.json | 502 bytes
+results\ablation\no_target\seed_21\episode_metrics.csv | 34723 bytes
+results\ablation\no_target\seed_21\online_network.pth | 6185 bytes
+results\ablation\no_target\seed_42\config.json | 502 bytes
+results\ablation\no_target\seed_42\episode_metrics.csv | 36783 bytes
+results\ablation\no_target\seed_42\online_network.pth | 6185 bytes
+results\ablation\no_target\seed_7\config.json | 502 bytes
+results\ablation\no_target\seed_7\episode_metrics.csv | 32810 bytes
+results\ablation\no_target\seed_7\online_network.pth | 6185 bytes
+results\figures\baseline_1500_training_summary.png | 474793 bytes
+results\figures\evaluation_rewards.png | 259718 bytes
+results\figures\experiment_02_training_summary.png | 384722 bytes
+results\figures\preliminary_seed42_rewards.png | 270034 bytes
+results\figures\training_losses.png | 160418 bytes
+results\figures\training_rewards_1500.png | 330092 bytes
+results\figures\training_summary.png | 384722 bytes
+results\figures\training_summary_1500.png | 474793 bytes
+results\raw\baseline_1500_evaluation.npy | 928 bytes
+results\raw\baseline_1500_losses.npy | 12128 bytes
+results\raw\baseline_1500_model.pth | 72749 bytes
+results\raw\baseline_1500_rewards.npy | 12128 bytes
+results\raw\baseline_500_evaluation.npy | 928 bytes
+results\raw\baseline_500_losses.npy | 4128 bytes
+results\raw\baseline_500_model.pth | 72749 bytes
+results\raw\baseline_500_rewards.npy | 4128 bytes
+results\raw\dqn_model.pth | 72749 bytes
+results\raw\episode_losses.npy | 16128 bytes
+results\raw\episode_rewards.npy | 16128 bytes
+results\raw\evaluation_rewards.npy | 928 bytes
+results\raw\experiment_02_evaluation.npy | 928 bytes
+results\raw\experiment_02_losses.npy | 16128 bytes
+results\raw\experiment_02_model.pth | 72749 bytes
+results\raw\experiment_02_rewards.npy | 16128 bytes
+results\raw\preliminary_seed42_losses.npy | 4128 bytes
+results\raw\preliminary_seed42_rewards.npy | 4128 bytes
+results\sensitivity\diagnostics\analysis\01_training_rewards.png | 412510 bytes
+results\sensitivity\diagnostics\analysis\02_training_losses.png | 284764 bytes
+results\sensitivity\diagnostics\analysis\03_q_value_comparison.png | 348107 bytes
+results\sensitivity\diagnostics\analysis\04_max_abs_current_q.png | 261510 bytes
+results\sensitivity\diagnostics\analysis\05_td_error_comparison.png | 409597 bytes
+results\sensitivity\diagnostics\analysis\06_gradient_norms.png | 315788 bytes
+results\sensitivity\diagnostics\analysis\diagnostic_summary.csv | 3530 bytes
+results\sensitivity\diagnostics\evaluation\evaluation_summary.csv | 288 bytes
+results\sensitivity\diagnostics\evaluation\figures\diagnostic_greedy_evaluation.png | 249026 bytes
+results\sensitivity\diagnostics\evaluation\seed_123_evaluation_rewards.npy | 928 bytes
+results\sensitivity\diagnostics\evaluation\seed_2025_evaluation_rewards.npy | 928 bytes
+results\sensitivity\diagnostics\evaluation\seed_21_evaluation_rewards.npy | 928 bytes
+results\sensitivity\diagnostics\evaluation\seed_42_evaluation_rewards.npy | 928 bytes
+results\sensitivity\diagnostics\evaluation\seed_7_evaluation_rewards.npy | 928 bytes
+results\sensitivity\diagnostics\seed_123\config.json | 467 bytes
+results\sensitivity\diagnostics\seed_123\diagnostic_metrics.csv | 108695 bytes
+results\sensitivity\diagnostics\seed_123\episode_metrics.csv | 27497 bytes
+results\sensitivity\diagnostics\seed_123\gradient_clipping_summary.csv | 194 bytes
+results\sensitivity\diagnostics\seed_123\online_network.pth | 6185 bytes
+results\sensitivity\diagnostics\seed_2025\config.json | 467 bytes
+results\sensitivity\diagnostics\seed_2025\diagnostic_metrics.csv | 92435 bytes
+results\sensitivity\diagnostics\seed_2025\episode_metrics.csv | 23377 bytes
+results\sensitivity\diagnostics\seed_2025\gradient_clipping_summary.csv | 194 bytes
+results\sensitivity\diagnostics\seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\diagnostics\seed_21\config.json | 467 bytes
+results\sensitivity\diagnostics\seed_21\diagnostic_metrics.csv | 123598 bytes
+results\sensitivity\diagnostics\seed_21\episode_metrics.csv | 31129 bytes
+results\sensitivity\diagnostics\seed_21\gradient_clipping_summary.csv | 192 bytes
+results\sensitivity\diagnostics\seed_21\online_network.pth | 6185 bytes
+results\sensitivity\diagnostics\seed_42\config.json | 467 bytes
+results\sensitivity\diagnostics\seed_42\diagnostic_metrics.csv | 118023 bytes
+results\sensitivity\diagnostics\seed_42\episode_metrics.csv | 29833 bytes
+results\sensitivity\diagnostics\seed_42\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\diagnostics\seed_42\online_network.pth | 6185 bytes
+results\sensitivity\diagnostics\seed_7\config.json | 467 bytes
+results\sensitivity\diagnostics\seed_7\diagnostic_metrics.csv | 104018 bytes
+results\sensitivity\diagnostics\seed_7\episode_metrics.csv | 26586 bytes
+results\sensitivity\diagnostics\seed_7\gradient_clipping_summary.csv | 192 bytes
+results\sensitivity\diagnostics\seed_7\online_network.pth | 6185 bytes
+results\sensitivity\evaluation\evaluation_results.csv | 6552 bytes
+results\sensitivity\evaluation\evaluation_summary.csv | 181 bytes
+results\sensitivity\figures\baseline_learning_curves.png | 370134 bytes
+results\sensitivity\figures\seed_comparison.png | 373103 bytes
+results\sensitivity\figures\seed_loss_comparison.png | 314120 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\evaluation_summary.csv | 308 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\figures\lr_0.0001_evaluation.png | 678334 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\seed_123_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\seed_2025_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\seed_21_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\seed_42_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.0001\evaluation\seed_7_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_123\config.json | 467 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_123\diagnostic_metrics.csv | 100446 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_123\episode_metrics.csv | 25209 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_123\gradient_clipping_summary.csv | 195 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_123\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_2025\config.json | 467 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_2025\diagnostic_metrics.csv | 87683 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_2025\episode_metrics.csv | 21963 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_2025\gradient_clipping_summary.csv | 195 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_21\config.json | 467 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_21\diagnostic_metrics.csv | 91577 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_21\episode_metrics.csv | 23060 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_21\gradient_clipping_summary.csv | 195 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_21\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_42\config.json | 467 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_42\diagnostic_metrics.csv | 101670 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_42\episode_metrics.csv | 25740 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_42\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_42\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_7\config.json | 467 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_7\diagnostic_metrics.csv | 95706 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_7\episode_metrics.csv | 24234 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_7\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\learning_rate\lr_0.0001\seed_7\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\evaluation_summary.csv | 278 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\figures\lr_0.00025_evaluation.png | 298089 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\seed_123_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\seed_2025_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\seed_21_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\seed_42_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00025\evaluation\seed_7_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_123\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_123\diagnostic_metrics.csv | 94074 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_123\episode_metrics.csv | 23662 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_123\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_123\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_2025\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_2025\diagnostic_metrics.csv | 89117 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_2025\episode_metrics.csv | 22588 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_2025\gradient_clipping_summary.csv | 195 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_21\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_21\diagnostic_metrics.csv | 92212 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_21\episode_metrics.csv | 23312 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_21\gradient_clipping_summary.csv | 192 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_21\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_42\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_42\diagnostic_metrics.csv | 84847 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_42\episode_metrics.csv | 21565 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_42\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_42\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_7\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_7\diagnostic_metrics.csv | 83308 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_7\episode_metrics.csv | 21191 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_7\gradient_clipping_summary.csv | 194 bytes
+results\sensitivity\learning_rate\lr_0.00025\seed_7\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\evaluation_summary.csv | 288 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\figures\lr_0.00075_evaluation.png | 203083 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\seed_123_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\seed_2025_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\seed_21_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\seed_42_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00075\evaluation\seed_7_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_123\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_123\diagnostic_metrics.csv | 101073 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_123\episode_metrics.csv | 25573 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_123\gradient_clipping_summary.csv | 194 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_123\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_2025\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_2025\diagnostic_metrics.csv | 86097 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_2025\episode_metrics.csv | 21782 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_2025\gradient_clipping_summary.csv | 195 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_21\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_21\diagnostic_metrics.csv | 115610 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_21\episode_metrics.csv | 29209 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_21\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_21\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_42\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_42\diagnostic_metrics.csv | 127736 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_42\episode_metrics.csv | 32213 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_42\gradient_clipping_summary.csv | 191 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_42\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_7\config.json | 468 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_7\diagnostic_metrics.csv | 125614 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_7\episode_metrics.csv | 31648 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_7\gradient_clipping_summary.csv | 190 bytes
+results\sensitivity\learning_rate\lr_0.00075\seed_7\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\evaluation_summary.csv | 248 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\figures\lr_0.001_evaluation.png | 170885 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\seed_123_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\seed_2025_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\seed_21_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\seed_42_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.001\evaluation\seed_7_rewards.npy | 928 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_123\config.json | 514 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_123\diagnostic_metrics.csv | 120441 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_123\episode_metrics.csv | 30239 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_123\gradient_clipping_summary.csv | 194 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_123\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_2025\config.json | 514 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_2025\diagnostic_metrics.csv | 135818 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_2025\episode_metrics.csv | 34358 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_2025\gradient_clipping_summary.csv | 195 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_21\config.json | 514 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_21\diagnostic_metrics.csv | 147890 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_21\episode_metrics.csv | 37190 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_21\gradient_clipping_summary.csv | 191 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_21\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_42\config.json | 514 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_42\diagnostic_metrics.csv | 106881 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_42\episode_metrics.csv | 27009 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_42\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_42\online_network.pth | 6185 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_7\config.json | 514 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_7\diagnostic_metrics.csv | 108549 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_7\episode_metrics.csv | 27428 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_7\gradient_clipping_summary.csv | 190 bytes
+results\sensitivity\learning_rate\lr_0.001\seed_7\online_network.pth | 6185 bytes
+results\sensitivity\raw\baseline_seed_123\config.json | 467 bytes
+results\sensitivity\raw\baseline_seed_123\episode_metrics.csv | 27497 bytes
+results\sensitivity\raw\baseline_seed_123\online_network.pth | 6185 bytes
+results\sensitivity\raw\baseline_seed_2025\config.json | 467 bytes
+results\sensitivity\raw\baseline_seed_2025\episode_metrics.csv | 23377 bytes
+results\sensitivity\raw\baseline_seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\raw\baseline_seed_21\config.json | 467 bytes
+results\sensitivity\raw\baseline_seed_21\episode_metrics.csv | 31129 bytes
+results\sensitivity\raw\baseline_seed_21\online_network.pth | 6185 bytes
+results\sensitivity\raw\baseline_seed_42\config.json | 467 bytes
+results\sensitivity\raw\baseline_seed_42\episode_metrics.csv | 29833 bytes
+results\sensitivity\raw\baseline_seed_42\online_network.pth | 6185 bytes
+results\sensitivity\raw\baseline_seed_7\config.json | 467 bytes
+results\sensitivity\raw\baseline_seed_7\episode_metrics.csv | 26586 bytes
+results\sensitivity\raw\baseline_seed_7\online_network.pth | 6185 bytes
+results\sensitivity\target_update\interval_500\evaluation\evaluation_summary.csv | 270 bytes
+results\sensitivity\target_update\interval_500\evaluation\figures\lr_0.001_evaluation.png | 170885 bytes
+results\sensitivity\target_update\interval_500\evaluation\figures\target_update_500_evaluation.png | 190062 bytes
+results\sensitivity\target_update\interval_500\evaluation\seed_123_rewards.npy | 928 bytes
+results\sensitivity\target_update\interval_500\evaluation\seed_2025_rewards.npy | 928 bytes
+results\sensitivity\target_update\interval_500\evaluation\seed_21_rewards.npy | 928 bytes
+results\sensitivity\target_update\interval_500\evaluation\seed_42_rewards.npy | 928 bytes
+results\sensitivity\target_update\interval_500\evaluation\seed_7_rewards.npy | 928 bytes
+results\sensitivity\target_update\interval_500\seed_123\config.json | 523 bytes
+results\sensitivity\target_update\interval_500\seed_123\diagnostic_metrics.csv | 98369 bytes
+results\sensitivity\target_update\interval_500\seed_123\episode_metrics.csv | 24967 bytes
+results\sensitivity\target_update\interval_500\seed_123\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\target_update\interval_500\seed_123\online_network.pth | 6185 bytes
+results\sensitivity\target_update\interval_500\seed_2025\config.json | 523 bytes
+results\sensitivity\target_update\interval_500\seed_2025\diagnostic_metrics.csv | 107448 bytes
+results\sensitivity\target_update\interval_500\seed_2025\episode_metrics.csv | 26936 bytes
+results\sensitivity\target_update\interval_500\seed_2025\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\target_update\interval_500\seed_2025\online_network.pth | 6185 bytes
+results\sensitivity\target_update\interval_500\seed_21\config.json | 523 bytes
+results\sensitivity\target_update\interval_500\seed_21\diagnostic_metrics.csv | 87419 bytes
+results\sensitivity\target_update\interval_500\seed_21\episode_metrics.csv | 22052 bytes
+results\sensitivity\target_update\interval_500\seed_21\gradient_clipping_summary.csv | 193 bytes
+results\sensitivity\target_update\interval_500\seed_21\online_network.pth | 6185 bytes
+results\sensitivity\target_update\interval_500\seed_42\config.json | 523 bytes
+results\sensitivity\target_update\interval_500\seed_42\diagnostic_metrics.csv | 120226 bytes
+results\sensitivity\target_update\interval_500\seed_42\episode_metrics.csv | 29894 bytes
+results\sensitivity\target_update\interval_500\seed_42\gradient_clipping_summary.csv | 190 bytes
+results\sensitivity\target_update\interval_500\seed_42\online_network.pth | 6185 bytes
+results\sensitivity\target_update\interval_500\seed_7\config.json | 523 bytes
+results\sensitivity\target_update\interval_500\seed_7\diagnostic_metrics.csv | 105984 bytes
+results\sensitivity\target_update\interval_500\seed_7\episode_metrics.csv | 26845 bytes
+results\sensitivity\target_update\interval_500\seed_7\gradient_clipping_summary.csv | 192 bytes
+results\sensitivity\target_update\interval_500\seed_7\online_network.pth | 6185 bytes
+
+========== CSV FILES AND COLUMN HEADERS ==========
+
+FILE: results\ablation\no_replay\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\ablation\no_replay\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_replay\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_replay\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_replay\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_replay\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_target\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\ablation\no_target\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_target\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_target\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_target\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\ablation\no_target\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\diagnostics\analysis\diagnostic_summary.csv
+COLUMNS: seed,episodes,reward_mean,reward_std,reward_median,reward_max,average_loss_mean,average_loss_std,average_loss_median,average_loss_max,mean_current_q_mean,mean_current_q_std,mean_current_q_median,mean_current_q_max,max_abs_current_q_mean,max_abs_current_q_std,max_abs_current_q_median,max_abs_current_q_max,mean_target_q_mean,mean_target_q_std,mean_target_q_median,mean_target_q_max,mean_abs_td_error_mean,mean_abs_td_error_std,mean_abs_td_error_median,mean_abs_td_error_max,max_abs_td_error_mean,max_abs_td_error_std,max_abs_td_error_median,max_abs_td_error_max,gradient_norm_mean,gradient_norm_std,gradient_norm_median,gradient_norm_max
+
+FILE: results\sensitivity\diagnostics\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\sensitivity\diagnostics\seed_123\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\diagnostics\seed_123\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_2025\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\diagnostics\seed_2025\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_21\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\diagnostics\seed_21\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_42\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\diagnostics\seed_42\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_7\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\diagnostics\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\diagnostics\seed_7\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\evaluation\evaluation_results.csv
+COLUMNS: seed,episode,reward
+
+FILE: results\sensitivity\evaluation\evaluation_summary.csv
+COLUMNS: seed,mean,std,max
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_123\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_123\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_2025\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_2025\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_21\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_21\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_42\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_42\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_7\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.0001\seed_7\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_123\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_123\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_2025\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_2025\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_21\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_21\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_42\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_42\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_7\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00025\seed_7\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_123\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_123\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_2025\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_2025\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_21\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_21\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_42\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_42\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_7\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.00075\seed_7\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_123\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_123\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_2025\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_2025\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_21\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_21\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_42\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_42\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_7\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\learning_rate\lr_0.001\seed_7\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\raw\baseline_seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\raw\baseline_seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\raw\baseline_seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\raw\baseline_seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\raw\baseline_seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\target_update\interval_500\evaluation\evaluation_summary.csv
+COLUMNS: training_seed,evaluation_episodes,mean_reward,std_reward,min_reward,max_reward
+
+FILE: results\sensitivity\target_update\interval_500\seed_123\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_123\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\target_update\interval_500\seed_123\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_2025\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_2025\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\target_update\interval_500\seed_2025\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_21\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_21\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\target_update\interval_500\seed_21\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_42\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_42\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\target_update\interval_500\seed_42\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_7\diagnostic_metrics.csv
+COLUMNS: episode,mean_current_q,max_abs_current_q,mean_target_q,mean_abs_td_error,max_abs_td_error,gradient_norm
+
+FILE: results\sensitivity\target_update\interval_500\seed_7\episode_metrics.csv
+COLUMNS: episode,reward,average_loss
+
+FILE: results\sensitivity\target_update\interval_500\seed_7\gradient_clipping_summary.csv
+COLUMNS: seed,gradient_clip_threshold,total_updates,clipped_updates,clipping_percentage,mean_gradient_norm,max_gradient_norm

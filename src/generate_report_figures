@@ -1,0 +1,435 @@
+
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+# ============================================================
+# PATHS AND SETTINGS
+# ============================================================
+
+ROOT = Path(__file__).resolve().parent.parent
+RESULTS = ROOT / "results"
+
+OUTPUT_DIR = RESULTS / "report_figures"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+SEEDS = [42, 123, 2025, 7, 21]
+WINDOW = 50
+
+
+# ============================================================
+# HELPER: LOAD TRAINING REWARD CURVES
+# ============================================================
+
+def load_training_curves(folder):
+
+    curves = []
+
+    for seed in SEEDS:
+
+        file = folder / f"seed_{seed}" / "episode_metrics.csv"
+
+        if not file.exists():
+            print(f"WARNING: Missing file: {file}")
+            continue
+
+        data = pd.read_csv(file)
+
+        if "reward" not in data.columns:
+            print(f"WARNING: No reward column in {file}")
+            continue
+
+        rewards = data["reward"].astype(float)
+
+        smoothed = rewards.rolling(
+            window=WINDOW,
+            min_periods=1
+        ).mean()
+
+        curves.append(smoothed.reset_index(drop=True))
+
+    if not curves:
+        raise FileNotFoundError(
+            f"No training curves found in {folder}"
+        )
+
+    combined = pd.concat(curves, axis=1)
+
+    mean = combined.mean(axis=1)
+    std = combined.std(axis=1)
+
+    episodes = np.arange(1, len(mean) + 1)
+
+    return episodes, mean, std
+
+
+def plot_curve(ax, folder, label):
+
+    episodes, mean, std = load_training_curves(folder)
+
+    ax.plot(
+        episodes,
+        mean,
+        label=label,
+        linewidth=2
+    )
+
+    ax.fill_between(
+        episodes,
+        (mean - std).to_numpy(),
+        (mean + std).to_numpy(),
+        alpha=0.15
+    )
+
+
+# ============================================================
+# 1. BASELINE LEARNING CURVE
+# ============================================================
+
+print("\nGenerating baseline learning curve...")
+
+fig, ax = plt.subplots(figsize=(10, 6))
+
+baseline_folder = RESULTS / "sensitivity" / "raw"
+
+plot_curve(
+    ax,
+    baseline_folder / "baseline_seed_42",
+    "Seed 42"
+)
+
+# Plot individual seeds for transparency
+for seed in SEEDS:
+
+    file = (
+        baseline_folder
+        / f"baseline_seed_{seed}"
+        / "episode_metrics.csv"
+    )
+
+    if file.exists():
+
+        data = pd.read_csv(file)
+
+        rewards = data["reward"].astype(float)
+
+        smoothed = rewards.rolling(
+            window=WINDOW,
+            min_periods=1
+        ).mean()
+
+        ax.plot(
+            np.arange(1, len(smoothed) + 1),
+            smoothed,
+            alpha=0.18,
+            linewidth=0.8
+        )
+
+ax.set_title("Baseline DQN Training Reward")
+ax.set_xlabel("Episode")
+ax.set_ylabel("Reward (50-episode moving average)")
+ax.set_ylim(bottom=0)
+ax.grid(alpha=0.3)
+ax.legend(["Seed 42"])
+fig.tight_layout()
+
+fig.savefig(
+    OUTPUT_DIR / "01_baseline_learning_curves.png",
+    dpi=300
+)
+
+plt.close(fig)
+
+
+# ============================================================
+# 2. LEARNING-RATE COMPARISON
+# ============================================================
+
+print("Generating learning-rate comparison...")
+
+learning_rates = [
+    "0.0001",
+    "0.00025",
+    "0.00075",
+    "0.001"
+]
+
+fig, ax = plt.subplots(figsize=(11, 6))
+
+for lr in learning_rates:
+
+    folder = (
+        RESULTS
+        / "sensitivity"
+        / "learning_rate"
+        / f"lr_{lr}"
+    )
+
+    plot_curve(
+        ax,
+        folder,
+        f"LR = {lr}"
+    )
+
+ax.set_title("DQN Learning-Rate Sensitivity")
+ax.set_xlabel("Episode")
+ax.set_ylabel("Mean reward (50-episode moving average)")
+ax.set_ylim(bottom=0)
+ax.grid(alpha=0.3)
+ax.legend()
+
+fig.tight_layout()
+
+fig.savefig(
+    OUTPUT_DIR / "02_learning_rate_training_curves.png",
+    dpi=300
+)
+
+plt.close(fig)
+
+
+# ============================================================
+# 3. TARGET-UPDATE COMPARISON
+# ============================================================
+
+print("Generating target-update comparison...")
+
+fig, ax = plt.subplots(figsize=(10, 6))
+
+plot_curve(
+    ax,
+    RESULTS / "sensitivity" / "raw" / "baseline_seed_42",
+    "Baseline (interval 1000)"
+)
+
+plot_curve(
+    ax,
+    RESULTS / "sensitivity" / "target_update" / "interval_500",
+    "Target update interval 500"
+)
+
+ax.set_title("Target Network Update Sensitivity")
+ax.set_xlabel("Episode")
+ax.set_ylabel("Mean reward (50-episode moving average)")
+ax.set_ylim(bottom=0)
+ax.grid(alpha=0.3)
+ax.legend()
+
+fig.tight_layout()
+
+fig.savefig(
+    OUTPUT_DIR / "03_target_update_comparison.png",
+    dpi=300
+)
+
+plt.close(fig)
+
+
+# ============================================================
+# 4. ABLATION COMPARISON
+# ============================================================
+
+print("Generating ablation comparison...")
+
+fig, ax = plt.subplots(figsize=(10, 6))
+
+plot_curve(
+    ax,
+    RESULTS / "sensitivity" / "raw" / "baseline_seed_42",
+    "Baseline"
+)
+
+plot_curve(
+    ax,
+    RESULTS / "ablation" / "no_target",
+    "Without target network"
+)
+
+plot_curve(
+    ax,
+    RESULTS / "ablation" / "no_replay",
+    "Without replay buffer"
+)
+
+ax.set_title("DQN Component Ablation Study")
+ax.set_xlabel("Episode")
+ax.set_ylabel("Mean reward (50-episode moving average)")
+ax.set_ylim(bottom=0)
+ax.grid(alpha=0.3)
+ax.legend()
+
+fig.tight_layout()
+
+fig.savefig(
+    OUTPUT_DIR / "04_ablation_comparison.png",
+    dpi=300
+)
+
+plt.close(fig)
+
+
+# ============================================================
+# 5. EVALUATION COMPARISON
+# ============================================================
+
+print("Generating evaluation comparison...")
+
+
+def load_evaluation(path, experiment_name):
+
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Evaluation summary not found: {path}"
+        )
+
+    data = pd.read_csv(path)
+
+    # Normalize column names across summary formats
+    rename = {
+        "training_seed": "seed",
+        "mean_reward": "mean",
+        "std_reward": "episode_std",
+        "max_reward": "max"
+    }
+
+    data = data.rename(columns=rename)
+
+    required = {"seed", "mean"}
+
+    if not required.issubset(data.columns):
+        raise ValueError(
+            f"Unexpected columns in {path}: {list(data.columns)}"
+        )
+
+    data["mean"] = pd.to_numeric(
+        data["mean"],
+        errors="coerce"
+    )
+
+    seed_means = data["mean"].dropna()
+
+    return {
+        "experiment": experiment_name,
+        "seed_count": len(seed_means),
+        "mean_reward": seed_means.mean(),
+        "seed_std": seed_means.std(ddof=1),
+        "median_reward": seed_means.median(),
+        "seeds_500": int((seed_means >= 500).sum())
+    }
+
+
+evaluation_files = [
+    (
+        "Baseline (LR 0.0005)",
+        RESULTS / "sensitivity" / "evaluation"
+        / "evaluation_summary.csv"
+    ),
+    (
+        "LR 0.0001",
+        RESULTS / "sensitivity" / "learning_rate"
+        / "lr_0.0001" / "evaluation" / "evaluation_summary.csv"
+    ),
+    (
+        "LR 0.00025",
+        RESULTS / "sensitivity" / "learning_rate"
+        / "lr_0.00025" / "evaluation" / "evaluation_summary.csv"
+    ),
+    (
+        "LR 0.00075",
+        RESULTS / "sensitivity" / "learning_rate"
+        / "lr_0.00075" / "evaluation" / "evaluation_summary.csv"
+    ),
+    (
+        "LR 0.001",
+        RESULTS / "sensitivity" / "learning_rate"
+        / "lr_0.001" / "evaluation" / "evaluation_summary.csv"
+    ),
+    (
+        "Target update 500",
+        RESULTS / "sensitivity" / "target_update"
+        / "interval_500" / "evaluation" / "evaluation_summary.csv"
+    ),
+    (
+        "No target network",
+        RESULTS / "ablation" / "no_target"
+        / "evaluation" / "evaluation_summary.csv"
+    ),
+    (
+        "No replay buffer",
+        RESULTS / "ablation" / "no_replay"
+        / "evaluation" / "evaluation_summary.csv"
+    )
+]
+
+summaries = []
+
+for name, path in evaluation_files:
+
+    summaries.append(
+        load_evaluation(path, name)
+    )
+
+summary = pd.DataFrame(summaries)
+
+summary.to_csv(
+    OUTPUT_DIR / "evaluation_comparison_summary.csv",
+    index=False
+)
+
+fig, ax = plt.subplots(figsize=(12, 7))
+
+x = np.arange(len(summary))
+
+ax.bar(
+    x,
+    summary["mean_reward"],
+    yerr=summary["seed_std"],
+    capsize=5
+)
+
+ax.set_xticks(x)
+ax.set_xticklabels(
+    summary["experiment"],
+    rotation=35,
+    ha="right"
+)
+
+ax.set_title("DQN Evaluation Performance Comparison")
+ax.set_xlabel("Experiment")
+ax.set_ylabel("Mean evaluation reward across seeds")
+ax.set_ylim(bottom=0)
+ax.grid(axis="y", alpha=0.3)
+
+fig.tight_layout()
+
+fig.savefig(
+    OUTPUT_DIR / "05_evaluation_comparison.png",
+    dpi=300
+)
+
+plt.close(fig)
+
+
+# ============================================================
+# FINISHED
+# ============================================================
+
+print("\n========================================")
+print("REPORT FIGURE GENERATION COMPLETED")
+print("========================================")
+
+print(f"\nOutput directory: {OUTPUT_DIR}")
+
+print("\nEvaluation summary:")
+print(
+    summary.round(2).to_string(index=False)
+)
+
+print("\nGenerated files:")
+
+for file in sorted(OUTPUT_DIR.iterdir()):
+    print(file.name)
+
